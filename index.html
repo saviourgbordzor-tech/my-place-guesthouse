@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#1C1917" />
+  <meta name="description" content="MY Place Guest House Ho — a warm boutique guest house in Ho, Volta Region, Ghana. Air-conditioned en-suite rooms, thoughtful hospitality and a quiet base for exploring Volta." />
+  <title>MY Place Guest House Ho | Boutique Comfort in the Heart of Ho</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap" rel="stylesheet" />
+  <script>document.documentElement.classList.add('js');</script>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ============ Icon sprite ============ -->
+  <svg class="svg-sprite" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <symbol id="i-calendar" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M7 3v4M17 3v4M3 10h18"/></symbol>
+    <symbol id="i-chevron" viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"/></symbol>
+    <symbol id="i-whatsapp" viewBox="0 0 24 24"><path fill="currentColor" stroke="none" d="M20.52 3.48A11.86 11.86 0 0 0 12.04 0C5.4 0 .02 5.38.02 12.02c0 2.12.56 4.19 1.62 6.01L0 24l6.13-1.6a11.95 11.95 0 0 0 5.91 1.51h.01c6.63 0 12.02-5.39 12.02-12.02 0-3.21-1.25-6.23-3.52-8.5ZM12.04 22.68a9.94 9.94 0 0 1-5.06-1.39l-.36-.21-3.64.95.97-3.55-.24-.37a9.93 9.93 0 0 1-1.53-5.3c0-5.49 4.47-9.95 9.96-9.95a9.9 9.9 0 0 1 7.04 2.92 9.9 9.9 0 0 1 2.91 7.03c0 5.49-4.47 9.95-9.96 9.95Zm5.46-7.45c-.3-.15-1.77-.87-2.04-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.34.23-.64.08-.3-.15-1.27-.47-2.42-1.49-.89-.8-1.49-1.78-1.66-2.08-.17-.3-.02-.46.13-.61.13-.13.3-.34.45-.5.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.08-.15-.67-1.61-.92-2.2-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.79.37-.27.3-1.04 1.01-1.04 2.47s1.06 2.86 1.21 3.06c.15.2 2.09 3.19 5.06 4.48.71.3 1.26.48 1.69.62.71.23 1.36.2 1.87.12.57-.09 1.76-.72 2.01-1.41.25-.7.25-1.3.17-1.42-.07-.12-.27-.2-.57-.35Z"/></symbol>
+    <symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10Z"/><path d="m9 12 2 2 4-4"/></symbol>
+    <symbol id="i-power" viewBox="0 0 24 24"><path d="M13 2 4 14h7l-1 8 9-12h-7l1-8Z"/></symbol>
+    <symbol id="i-wifi" viewBox="0 0 24 24"><path d="M2 8.8a16 16 0 0 1 20 0M5 12.5a11 11 0 0 1 14 0M8.5 16.2a6 6 0 0 1 7 0"/><circle cx="12" cy="20" r="1" fill="currentColor" stroke="none"/></symbol>
+    <symbol id="i-dining" viewBox="0 0 24 24"><path d="M4 3v7a3 3 0 0 0 6 0V3M7 3v18M17 3c-2 2-3 5-3 9h6V3M17 12v9"/></symbol>
+    <symbol id="i-laundry" viewBox="0 0 24 24"><rect x="4" y="3" width="16" height="18" rx="2"/><circle cx="12" cy="14" r="4"/><path d="M7 6.5h.01M10.5 6.5h.01"/></symbol>
+    <symbol id="i-car" viewBox="0 0 24 24"><path d="M5 17h14M4 17v-5l2-6h12l2 6v5M3 17h18v3h-2v-1H5v1H3v-3ZM7 13h.01M17 13h.01"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24"><path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2.5"/></symbol>
+    <symbol id="i-phone" viewBox="0 0 24 24"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.6a2 2 0 0 1-.4 2.1L8.1 9.9a16 16 0 0 0 6 6l1.5-1.3a2 2 0 0 1 2.1-.4c.8.3 1.7.6 2.6.7a2 2 0 0 1 1.7 2Z"/></symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m2 6 10 7 10-7"/></symbol>
+    <symbol id="i-star" viewBox="0 0 24 24"><path fill="currentColor" stroke="none" d="m12 2 3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21l1.2-6.9-5-4.9 6.9-1L12 2Z"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path d="m5 12 4.5 4.5L19 7"/></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M4 12h15M13 6l6 6-6 6"/></symbol>
+    <symbol id="i-bed" viewBox="0 0 24 24"><path d="M3 18v-8m0 4h18v4M3 14V7m18 7v-3a2 2 0 0 0-2-2H3m6 3h4a2 2 0 0 1 2 2v1H9v-3Z"/></symbol>
+    <symbol id="i-quote" viewBox="0 0 24 24"><path fill="currentColor" stroke="none" d="M9.5 5C5.9 6.8 4 10 4 14v5h7v-7H7.8c.3-1.7 1.2-3 2.8-4L9.5 5Zm10 0C15.9 6.8 14 10 14 14v5h7v-7h-3.2c.3-1.7 1.2-3 2.8-4L19.5 5Z"/></symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.5 2"/></symbol>
+    <symbol id="i-mountain" viewBox="0 0 24 24"><path d="m2 19 6-11 4 6 2-3 8 8H2Z"/><path d="m6.5 11 1.5-3 1.6 2.4"/></symbol>
+    <symbol id="i-spark" viewBox="0 0 24 24"><path d="M12 2v6M12 16v6M2 12h6M16 12h6M5 5l4 4M15 15l4 4M19 5l-4 4M9 15l-4 4"/></symbol>
+  </svg>
+
+  <!-- ============ Header ============ -->
+  <header class="site-header" id="siteHeader">
+    <div class="container site-header__inner">
+      <a class="brand" href="#top" aria-label="MY Place Guest House Ho — home">
+        <span class="brand__mark">MP<span class="brand__dot">.</span></span>
+        <span class="brand__text">
+          <strong>MY PLACE</strong>
+          <small>GUEST HOUSE · HO</small>
+        </span>
+      </a>
+
+      <nav class="site-nav" id="siteNav" aria-label="Main navigation">
+        <a href="#rooms">Rooms &amp; Suites</a>
+        <a href="#amenities">Amenities</a>
+        <a href="#explore">Explore Ho</a>
+        <a href="#reviews">Guest Stories</a>
+        <a class="site-nav__cta" href="#reserve">Reserve</a>
+      </nav>
+
+      <button class="nav-toggle" id="navToggle" type="button" aria-label="Toggle navigation" aria-expanded="false" aria-controls="siteNav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="top">
+
+    <!-- ============ Hero ============ -->
+    <section class="hero" aria-labelledby="heroTitle">
+      <div class="container hero__inner">
+        <span class="hero__tag"><span class="hero__tag-dot"></span> Boutique Comfort in the Heart of Ho</span>
+        <h1 id="heroTitle">Your Quiet Sanctuary in <em>Ho, Volta Region.</em></h1>
+        <p class="hero__lead">A warm, thoughtfully cared-for guest house where soft linens, steady air-conditioning and genuine Volta hospitality make every stay feel like a slow, easy exhale.</p>
+        <div class="hero__actions">
+          <a class="btn btn--primary" href="#rooms">Explore Our Rooms <svg class="icon"><use href="#i-arrow"/></svg></a>
+          <a class="btn btn--outline-light" href="#amenities">See What's Included</a>
+        </div>
+        <ul class="hero__trust" aria-label="Guest house highlights">
+          <li><svg class="icon"><use href="#i-star"/></svg> 4.9 guest rating</li>
+          <li><svg class="icon"><use href="#i-shield"/></svg> Private &amp; secure</li>
+          <li><svg class="icon"><use href="#i-pin"/></svg> Minutes from Ho centre</li>
+        </ul>
+      </div>
+
+      <!-- Floating reservation bar -->
+      <div class="reservation-bar" id="quickBar" role="region" aria-label="Quick room reservation">
+        <div class="reservation-bar__head">
+          <span class="reservation-bar__title"><svg class="icon"><use href="#i-calendar"/></svg> Quick Room Reservation</span>
+          <span class="reservation-bar__note">Instant confirmation on WhatsApp · No payment needed now</span>
+        </div>
+        <form class="reservation-bar__form" id="quickForm" novalidate>
+          <div class="field">
+            <label for="quickCheckIn">Check-In Date</label>
+            <div class="input-wrap">
+              <svg class="icon"><use href="#i-calendar"/></svg>
+              <input type="date" id="quickCheckIn" name="checkIn" />
+            </div>
+          </div>
+          <div class="field">
+            <label for="quickCheckOut">Check-Out Date</label>
+            <div class="input-wrap">
+              <svg class="icon"><use href="#i-calendar"/></svg>
+              <input type="date" id="quickCheckOut" name="checkOut" />
+            </div>
+          </div>
+          <div class="field">
+            <label for="quickRoom">Room Type</label>
+            <div class="input-wrap">
+              <svg class="icon"><use href="#i-bed"/></svg>
+              <select id="quickRoom" name="room">
+                <option value="standard">Standard Cozy Room — GHS 450</option>
+                <option value="executive">Executive Queen Suite — GHS 620</option>
+                <option value="deluxe">Deluxe Twin / Family Suite — GHS 850</option>
+              </select>
+              <svg class="icon input-wrap__chevron"><use href="#i-chevron"/></svg>
+            </div>
+          </div>
+          <button class="btn btn--primary reservation-bar__submit" type="submit">
+            <svg class="icon"><use href="#i-whatsapp"/></svg> Check Availability on WhatsApp
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <!-- ============ Rooms ============ -->
+    <section class="section rooms" id="rooms" aria-labelledby="roomsTitle">
+      <div class="container">
+        <div class="section-head section-head--center reveal">
+          <span class="eyebrow">Rooms &amp; Suites</span>
+          <h2 id="roomsTitle">A room for every kind of <em>stay.</em></h2>
+          <p>Each room at MY Place is designed for deep rest — soft textures, quiet corners and everything you need to feel at home in Ho.</p>
+        </div>
+
+        <div class="rooms__grid">
+          <!-- Standard -->
+          <article class="room-card reveal">
+            <div class="room-card__media">
+              <img src="https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=1000&q=80" alt="Warm, neatly made boutique guest room with crisp white linens" loading="lazy" data-fallback="https://images.unsplash.com/photo-1611892440504-42a792e24d32?auto=format&fit=crop&w=1000&q=80" />
+              <span class="room-card__badge">Guest Favourite</span>
+            </div>
+            <div class="room-card__body">
+              <span class="room-card__kicker">Cozy &amp; Comfortable</span>
+              <h3>Standard Cozy Room</h3>
+              <p>A calm, air-conditioned retreat with a plush bed and all the essentials — perfect for a restful night between Ho adventures.</p>
+              <ul class="amenity-pills">
+                <li>Air Conditioning</li><li>High-Speed Wi-Fi</li><li>En-Suite Hot Shower</li><li>Smart TV</li><li>Complimentary Breakfast</li>
+              </ul>
+              <div class="room-card__foot">
+                <div class="price"><strong>GHS 450</strong><span>/night</span></div>
+                <button class="btn btn--primary btn--small reserve-room" type="button" data-room="standard">Reserve This Room <svg class="icon"><use href="#i-arrow"/></svg></button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Executive -->
+          <article class="room-card reveal">
+            <div class="room-card__media">
+              <img src="https://images.unsplash.com/photo-1618773928121-c32242e63f39?auto=format&fit=crop&w=1000&q=80" alt="Elegant queen suite with a warm headboard and refined boutique decor" loading="lazy" data-fallback="https://images.unsplash.com/photo-1611892440504-42a792e24d32?auto=format&fit=crop&w=1000&q=80" />
+              <span class="room-card__badge">Most Booked</span>
+            </div>
+            <div class="room-card__body">
+              <span class="room-card__kicker">Room to Unwind</span>
+              <h3>Executive Queen Suite</h3>
+              <p>More space, softer lighting and a queen bed made for slow mornings. A quiet upgrade for business trips and couple stays.</p>
+              <ul class="amenity-pills">
+                <li>Air Conditioning</li><li>High-Speed Wi-Fi</li><li>En-Suite Hot Shower</li><li>Smart TV</li><li>Complimentary Breakfast</li>
+              </ul>
+              <div class="room-card__foot">
+                <div class="price"><strong>GHS 620</strong><span>/night</span></div>
+                <button class="btn btn--primary btn--small reserve-room" type="button" data-room="executive">Reserve This Room <svg class="icon"><use href="#i-arrow"/></svg></button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Deluxe -->
+          <article class="room-card reveal">
+            <div class="room-card__media">
+              <img src="https://images.unsplash.com/photo-1595576508898-0ad5c879a061?auto=format&fit=crop&w=1000&q=80" alt="Spacious twin family suite with two beds and a bright sitting area" loading="lazy" data-fallback="https://images.unsplash.com/photo-1611892440504-42a792e24d32?auto=format&fit=crop&w=1000&q=80" />
+              <span class="room-card__badge">For Families</span>
+            </div>
+            <div class="room-card__body">
+              <span class="room-card__kicker">Space for Everyone</span>
+              <h3>Deluxe Twin / Family Suite</h3>
+              <p>Two comfortable beds and generous room to spread out — made for families, colleagues and friends travelling together.</p>
+              <ul class="amenity-pills">
+                <li>Air Conditioning</li><li>High-Speed Wi-Fi</li><li>En-Suite Hot Shower</li><li>Smart TV</li><li>Complimentary Breakfast</li>
+              </ul>
+              <div class="room-card__foot">
+                <div class="price"><strong>GHS 850</strong><span>/night</span></div>
+                <button class="btn btn--primary btn--small reserve-room" type="button" data-room="deluxe">Reserve This Room <svg class="icon"><use href="#i-arrow"/></svg></button>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <p class="rooms__note reveal"><svg class="icon"><use href="#i-spark"/></svg> All rates include complimentary breakfast and Wi-Fi. Extra bedding and airport pickup can be arranged on request.</p>
+      </div>
+    </section>
+
+    <!-- ============ Amenities ============ -->
+    <section class="section amenities" id="amenities" aria-labelledby="amenitiesTitle">
+      <div class="container">
+        <div class="section-head section-head--split reveal">
+          <div>
+            <span class="eyebrow">Thoughtful Hospitality</span>
+            <h2 id="amenitiesTitle">The little things, <em>done well.</em></h2>
+          </div>
+          <p>Quiet comforts and practical touches that let you settle in, sleep deeply and make the most of your time in Volta.</p>
+        </div>
+
+        <div class="amenities__grid">
+          <div class="amenity reveal">
+            <span class="amenity__icon"><svg class="icon"><use href="#i-shield"/></svg></span>
+            <h3>24/7 Security &amp; Gated Parking</h3>
+            <p>A secure, gated compound with round-the-clock care and space to park your car with ease.</p>
+          </div>
+          <div class="amenity reveal">
+            <span class="amenity__icon"><svg class="icon"><use href="#i-power"/></svg></span>
+            <h3>Backup Power &amp; Inverter</h3>
+            <p>Steady light, cool rooms and working Wi-Fi — even when the grid takes a break.</p>
+          </div>
+          <div class="amenity reveal">
+            <span class="amenity__icon"><svg class="icon"><use href="#i-wifi"/></svg></span>
+            <h3>High-Speed Wi-Fi</h3>
+            <p>Fast, reliable connection throughout the property for work, calls and streaming.</p>
+          </div>
+          <div class="amenity reveal">
+            <span class="amenity__icon"><svg class="icon"><use href="#i-dining"/></svg></span>
+            <h3>Private Dining &amp; Room Service</h3>
+            <p>Enjoy a relaxed meal in your room or in our quiet dining corner, on your schedule.</p>
+          </div>
+          <div class="amenity reveal">
+            <span class="amenity__icon"><svg class="icon"><use href="#i-laundry"/></svg></span>
+            <h3>Laundry Service</h3>
+            <p>Fresh, neatly folded clothes without leaving the comfort of your stay.</p>
+          </div>
+          <div class="amenity reveal">
+            <span class="amenity__icon"><svg class="icon"><use href="#i-car"/></svg></span>
+            <h3>Airport / Town Pickup</h3>
+            <p>Arrival and onward rides arranged on request — including Ho airport and city transfers.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ Explore Ho & Volta ============ -->
+    <section class="section explore" id="explore" aria-labelledby="exploreTitle">
+      <div class="container explore__inner">
+        <div class="explore__media reveal">
+          <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1200&q=80" alt="Misty Volta landscape and rolling hills near Ho" loading="lazy" data-fallback="https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1200&q=80" />
+          <div class="explore__stat">
+            <strong>12 min</strong>
+            <span>to Ho city centre</span>
+          </div>
+        </div>
+
+        <div class="explore__content reveal">
+          <span class="eyebrow">Discover Ho &amp; Volta Region</span>
+          <h2 id="exploreTitle">Step outside. <em>Volta is waiting.</em></h2>
+          <p>MY Place sits in the heart of Ho — close enough to the city's markets and restaurants, yet calm enough to come back to a quiet room at the end of the day.</p>
+
+          <ul class="explore__list">
+            <li>
+              <span class="explore__num">01</span>
+              <div><h3>Ho City Centre</h3><p>Markets, local eateries and everyday Volta life, just a short drive from your door.</p></div>
+            </li>
+            <li>
+              <span class="explore__num">02</span>
+              <div><h3>Mount Adaklu</h3><p>A striking landmark and a favourite for a morning hike or a golden-hour photo stop.</p></div>
+            </li>
+            <li>
+              <span class="explore__num">03</span>
+              <div><h3>Weekend Getaways</h3><p>Use us as your base for Lake Volta, waterfalls and slow weekend escapes across the region.</p></div>
+            </li>
+          </ul>
+
+          <a class="btn btn--outline-dark" href="#reserve">Plan Your Volta Escape <svg class="icon"><use href="#i-arrow"/></svg></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ Stay Cost Estimator ============ -->
+    <section class="section estimator" id="reserve" aria-labelledby="estimatorTitle">
+      <div class="estimator__glow" aria-hidden="true"></div>
+      <div class="container estimator__inner">
+        <div class="estimator__intro reveal">
+          <span class="eyebrow eyebrow--light">Smart Stay Estimator</span>
+          <h2 id="estimatorTitle">Plan your stay, <em>then say hello.</em></h2>
+          <p>Pick your room and dates to see your nights and total instantly. We'll send everything straight to WhatsApp so our team can confirm availability and welcome you properly.</p>
+
+          <form class="stay-form" id="stayForm" novalidate>
+            <div class="field">
+              <label for="stayRoom">Room Type</label>
+              <div class="input-wrap">
+                <svg class="icon"><use href="#i-bed"/></svg>
+                <select id="stayRoom" name="room">
+                  <option value="standard">Standard Cozy Room — GHS 450</option>
+                  <option value="executive">Executive Queen Suite — GHS 620</option>
+                  <option value="deluxe">Deluxe Twin / Family Suite — GHS 850</option>
+                </select>
+                <svg class="icon input-wrap__chevron"><use href="#i-chevron"/></svg>
+              </div>
+            </div>
+            <div class="field">
+              <label for="stayCheckIn">Check-In Date</label>
+              <div class="input-wrap">
+                <svg class="icon"><use href="#i-calendar"/></svg>
+                <input type="date" id="stayCheckIn" name="checkIn" />
+              </div>
+            </div>
+            <div class="field">
+              <label for="stayCheckOut">Check-Out Date</label>
+              <div class="input-wrap">
+                <svg class="icon"><use href="#i-calendar"/></svg>
+                <input type="date" id="stayCheckOut" name="checkOut" />
+              </div>
+            </div>
+            <div class="field">
+              <label for="stayGuests">Number of Guests</label>
+              <div class="input-wrap">
+                <svg class="icon"><use href="#i-spark"/></svg>
+                <select id="stayGuests" name="guests">
+                  <option value="1">1 Guest</option>
+                  <option value="2" selected>2 Guests</option>
+                  <option value="3">3 Guests</option>
+                  <option value="4">4 Guests</option>
+                  <option value="5">5 Guests</option>
+                  <option value="6">6 Guests</option>
+                </select>
+                <svg class="icon input-wrap__chevron"><use href="#i-chevron"/></svg>
+              </div>
+            </div>
+          </form>
+
+          <p class="estimator__reassure"><svg class="icon"><use href="#i-check"/></svg> No payment is taken online. Your booking is confirmed by our team on WhatsApp.</p>
+        </div>
+
+        <aside class="stay-summary reveal" aria-label="Your stay estimate">
+          <div class="stay-summary__top">
+            <span class="stay-summary__label">Your stay at a glance</span>
+            <span class="stay-summary__brand">MY PLACE · HO</span>
+          </div>
+          <div class="stay-summary__rows">
+            <div class="summary-row"><span>Room</span><strong id="sumRoom">Standard Cozy Room</strong></div>
+            <div class="summary-row"><span>Check-in</span><strong id="sumCheckIn">—</strong></div>
+            <div class="summary-row"><span>Check-out</span><strong id="sumCheckOut">—</strong></div>
+            <div class="summary-row"><span>Guests</span><strong id="sumGuests">2 Guests</strong></div>
+            <div class="summary-row"><span>Rate per night</span><strong id="sumRate">GHS 450</strong></div>
+          </div>
+          <div class="stay-summary__nights">
+            <span>Total nights</span>
+            <strong id="sumNights">0</strong>
+          </div>
+          <div class="stay-summary__total">
+            <span>Estimated stay cost</span>
+            <strong id="sumTotal">GHS 0</strong>
+            <small id="sumBreakdown">Select your dates to see your total</small>
+          </div>
+          <button class="btn btn--primary btn--block" id="bookWhatsApp" type="button">
+            <svg class="icon"><use href="#i-whatsapp"/></svg> Send Booking Request on WhatsApp
+          </button>
+          <p class="stay-summary__foot"><svg class="icon"><use href="#i-clock"/></svg> Typical reply within a few minutes during opening hours.</p>
+        </aside>
+      </div>
+    </section>
+
+    <!-- ============ Reviews ============ -->
+    <section class="section reviews" id="reviews" aria-labelledby="reviewsTitle">
+      <div class="container">
+        <div class="section-head section-head--center reveal">
+          <span class="eyebrow">Verified Guest Stories</span>
+          <h2 id="reviewsTitle">Kind words from <em>our guests.</em></h2>
+          <p>Real stays, shared by travellers who came for a night and left with a favourite place in Ho.</p>
+        </div>
+
+        <div class="reviews__grid">
+          <figure class="review-card reveal">
+            <div class="review-card__stars" aria-label="5 out of 5 stars"><svg class="icon"><use href="#i-star"/></svg><svg class="icon"><use href="#i-star"/></svg><svg class="icon"><use href="#i-star"/></svg><svg class="icon"><use href="#i-star"/></svg><svg class="icon"><use href="#i-star"/></svg></div>
+            <blockquote>“The calmest place we stayed in Ho. The room was spotless, the air-conditioning worked perfectly and breakfast was a lovely start to each day.”</blockquote>
+            <figcaption><span class="review-card__avatar">AK</span><span class="review-card__who"><strong>Ama K.</strong><small>Accra, Ghana · Verified guest</small></span></figcaption>
+          </figure>
+          <figure class="review-card reveal">
+            <div class="review-card__stars" aria-label="5 out of 5 stars"><svg class="icon"><use href="#i-star"/></svg><svg class="icon"><use href="#i-star"/></svg><svg class="icon"><use href="#i-star"/></svg><svg class="icon"><use href="#i-star"/></svg><svg class="icon"><use href="#i-star"/></svg></div>
+            <blockquote>“Warm, attentive hosts and a genuinely quiet room. I slept better here than anywhere else on my trip — and the Wi-Fi held up for every video call.”</blockquote>
+            <figcaption><span class="review-card__avatar">JM</span><span class="review-card__who"><strong>John M.</strong><small>London, UK · Verified guest</small></span></figcaption>
+          </figure>
+          <figure class="review-card reveal">
+            <div class="review-card__stars" aria-label="5 out of 5 stars"><svg class="icon"><use href="#i-star"/></svg><svg class="icon"><use href="#i-star"/></svg><svg class="icon"><use href="#i-star"/></svg><svg class="icon"><use href="#i-star"/></svg><svg class="icon"><use href="#i-star"/></svg></div>
+            <blockquote>“A perfect base for Mount Adaklu and days out around Volta. Safe parking, steady power and a team that helped arrange our pickup at short notice.”</blockquote>
+            <figcaption><span class="review-card__avatar">KB</span><span class="review-card__who"><strong>Kwesi B.</strong><small>Kumasi, Ghana · Verified guest</small></span></figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ Footer ============ -->
+  <footer class="site-footer">
+    <div class="container site-footer__grid">
+      <div class="site-footer__brand">
+        <a class="brand brand--light" href="#top">
+          <span class="brand__mark">MP<span class="brand__dot">.</span></span>
+          <span class="brand__text"><strong>MY PLACE</strong><small>GUEST HOUSE · HO</small></span>
+        </a>
+        <p>Boutique comfort, quiet rooms and heartfelt Volta hospitality — right in the heart of Ho.</p>
+        <div class="site-footer__rating"><svg class="icon"><use href="#i-star"/></svg> 4.9 out of 5 · Verified guest stays</div>
+      </div>
+
+      <div class="site-footer__col">
+        <h4>Explore</h4>
+        <a href="#rooms">Rooms &amp; Suites</a>
+        <a href="#amenities">Amenities</a>
+        <a href="#explore">Ho &amp; Volta Region</a>
+        <a href="#reviews">Guest Stories</a>
+        <a href="#reserve">Reserve a Room</a>
+      </div>
+
+      <div class="site-footer__col">
+        <h4>Find Us</h4>
+        <p class="footer-contact"><svg class="icon"><use href="#i-pin"/></svg> Ho, Volta Region, Ghana<br /><span>Minutes from Ho city centre</span></p>
+        <p class="footer-contact"><svg class="icon"><use href="#i-phone"/></svg> <a href="tel:+233551806312">055 180 6312</a></p>
+        <p class="footer-contact"><svg class="icon"><use href="#i-whatsapp"/></svg> <a href="https://wa.me/233551806312?text=Hello%2C%20I%27d%20like%20to%20enquire%20about%20a%20stay%20at%20MY%20Place%20Guest%20House%20Ho." target="_blank" rel="noopener">Chat with our concierge</a></p>
+        <p class="footer-contact"><svg class="icon"><use href="#i-mail"/></svg> <a href="mailto:hello@myplacegh.com">hello@myplacegh.com</a></p>
+      </div>
+
+      <div class="site-footer__col">
+        <h4>Good to Know</h4>
+        <p class="footer-contact"><svg class="icon"><use href="#i-clock"/></svg> Check-in from 2:00 PM<br /><span>Check-out by 12:00 PM</span></p>
+        <p class="footer-contact"><svg class="icon"><use href="#i-check"/></svg> Free Wi-Fi &amp; breakfast<br /><span>Included with every room</span></p>
+        <a class="btn btn--outline-light btn--small footer-cta" href="#reserve">Check Availability <svg class="icon"><use href="#i-arrow"/></svg></a>
+      </div>
+    </div>
+    <div class="container site-footer__bottom">
+      <p>© <span id="year">2026</span> MY Place Guest House Ho. All rights reserved.</p>
+      <p>Made for slow mornings in Volta.</p>
+    </div>
+  </footer>
+
+  <!-- Floating WhatsApp concierge -->
+  <a class="wa-float" id="waFloat" href="https://wa.me/233551806312?text=Hello%2C%20I%27d%20like%20to%20enquire%20about%20a%20stay%20at%20MY%20Place%20Guest%20House%20Ho." target="_blank" rel="noopener" aria-label="Chat with our WhatsApp concierge">
+    <span class="wa-float__pulse" aria-hidden="true"></span>
+    <svg class="icon"><use href="#i-whatsapp"/></svg>
+    <span class="wa-float__tooltip">Chat with our concierge</span>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
